@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://nav3.cn/?g">
+  <a href="https://24ta.com/?g">
     <img src="src/assets/logo.png" width="130" />
   </a>
   <br />
@@ -8,12 +8,12 @@
   <p align="center">一个纯静态、支持SEO、在线编辑的强大导航网站，希望您会喜欢</p>
   <p align="center">内置收录多达 800+ 优质网站， 助您工作、学习和生活</p>
   <p align="center">
-    <img src="https://img.shields.io/github/v/release/xjh22222228/nav" />
-    <a href="https://github.com/xjh22222228/nav/stargazers"><img src="https://img.shields.io/github/stars/xjh22222228/nav" alt="Stars"/></a>
+    <img src="https://img.shields.io/github/v/release/xiaoqy/nav" />
+    <a href="https://github.com/xjh22222228/nav/stargazers"><img src="https://img.shields.io/github/stars/xiaoqy/nav" alt="Stars"/></a>
     <img alt="Angular" src="https://img.shields.io/static/v1.svg?label=&message=Angular11&style=flat-square&color=C82B38">
-    <img src="https://img.shields.io/github/license/xjh22222228/nav" />
-    <a href="https://hits.dwyl.com/xjh22222228/nav">
-      <img src="https://hits.dwyl.com/xjh22222228/nav.svg" />
+    <img src="https://img.shields.io/github/license/xiaoqy/nav" />
+    <a href="https://hits.dwyl.com/xiaoqy/nav">
+      <img src="https://hits.dwyl.com/xiaoqy/nav.svg" />
     </a>
   </p>
 </p>
@@ -23,7 +23,7 @@
 
 
 ## 选择版本
-目前有2个版本供选择, [v3](https://github.com/xjh22222228/nav/tree/v3) 和 `v5`, 这2个版本都会长期维护:
+目前有2个版本供选择, [v3](https://github.com/xiaoqy/nav/tree/v3) 和 `v5`, 这2个版本都会长期维护:
 
 - v5 - 也就是当前分支, 需要依赖于Github配置, 提供自动维护数据功能(微后台)，但必须Fork到自己仓库里。
 - v3 - 无需依赖Github, 您可以将代码部署在任意服务器, 但数据需要手工维护。
@@ -35,14 +35,14 @@
 ## 预览
 **主题**
 
-- [Sim 在线预览](https://nav3.cn/#/sim)
-- [Light 在线预览](https://nav3.cn/#/light)
+- [Sim 在线预览](https://24ta.com/#/sim)
+- [Light 在线预览](https://24ta.com/#/light)
 
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/1.png)
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/2.png)
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/3.png)
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/4.png)
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/5.png)
+![Preview](https://raw.githubusercontent.com/xiaoqy/public/gh-pages/nav/1.png)
+![Preview](https://raw.githubusercontent.com/xiaoqy/public/gh-pages/nav/2.png)
+![Preview](https://raw.githubusercontent.com/xiaoqy/public/gh-pages/nav/3.png)
+![Preview](https://raw.githubusercontent.com/xiaoqy/public/gh-pages/nav/4.png)
+![Preview](https://raw.githubusercontent.com/xiaoqy/public/gh-pages/nav/5.png)
 
 
 
@@ -91,10 +91,10 @@
 
 server {
     listen       80;
-    server_name  www.nav3.cn nav3.cn;
+    server_name  www.24ta.com 24ta.com;
 
     location / {
-        proxy_pass https://xjh22222228.github.io/nav/;
+        proxy_pass https://xiaoqy.github.io/nav/;
     }
 }
 ```
@@ -126,7 +126,7 @@ mac下是 `Command`，windows 下是 `Ctrl`
 - `ctrl+v` 查看信息
 - `ctrl+d` 开启或关闭暗黑模式
 
-如对快捷键有特殊要求请发起 [issues](https://github.com/xjh22222228/nav/issues)
+如对快捷键有特殊要求请发起 [issues](https://github.com/xiaoqy/nav/issues)
 
 
 
@@ -135,7 +135,7 @@ mac下是 `Command`，windows 下是 `Ctrl`
 ## 开发构建
 ``` bash
 # 下载
-git clone --depth=1 https://github.com/xjh22222228/nav.git
+git clone --depth=1 https://github.com/xiaoqy/nav.git
 
 # 安装依赖
 npm i
@@ -149,43 +149,21 @@ npm run build
 
 
 
-## 贡献
-[点击这里](https://github.com/xjh22222228/nav/tree/master/data)
-
-Thank you for your [contribution](https://github.com/xjh22222228/nav/issues), men.
-
-<a href="https://github.com/YutHelloWorld">
-  <img src="https://avatars1.githubusercontent.com/u/20860159?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/JJJTHuang">
-  <img src="https://avatars3.githubusercontent.com/u/22817432?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/Fechin">
-  <img src="https://avatars1.githubusercontent.com/u/2541482?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/setdiaoyong">
-  <img src="https://avatars1.githubusercontent.com/u/62551864?s=460&v=4" width="30px" height="30px" />
-</a>
-
-
-
-
-
-
 ## 建议
-如果有任何功能上的建议可通过 [issue](https://github.com/xjh22222228/nav/issues) 发起, Thank you.
+如果有任何功能上的建议可通过 [issue](https://github.com/xiaoqy/nav/issues) 发起, Thank you.
 
 
 
 ## 支持
-项目成立于 2018 年到至今一直坚持维护和开源, 经过N次的迭代与优化, 如果项目能帮到您是我的荣幸。
+项目成立于 2020 年到至今一直坚持维护和开源, 经过N次的迭代与优化, 如果项目能帮到您是我的荣幸。
 
 您可以请作者喝杯咖啡，继续战斗下去（请备注Github名字）~
 
-<img src="https://raw.sevencdn.com/xjh22222228/public/gh-pages/img/32.png" width="600">
+支付宝：1052406629@qq.com
+微信：ixiaoqy
 
 感谢您的认可：
 | 姓名    | 支持金额              |
 | --------------------------------------- |----------- |
-| [aiyou9](https://github.com/aiyou9)     | ￥20.00     |
+| [Cyrus Xiao](https://github.com/xiaoqy)     | ￥20.00     |
 
