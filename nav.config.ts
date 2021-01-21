@@ -9,7 +9,7 @@ const c: IConfig = {
   hashMode: true,
 
   // 您的网站地址，这对于SEO很重要
-  homeUrl: 'https://24ta.com',
+  homeUrl: 'https://xiaoqy.github.io/nav',
 
   // 网站标题
   title: '爱死Ta导航 - 专注效率',
