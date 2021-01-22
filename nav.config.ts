@@ -3,7 +3,6 @@ import { IConfig } from './src/types'
 // 网站 LOGO 替换根目录下的 logo.png， 务必为 png 后缀
 const c: IConfig = {
   // [必填], 请填写您的仓库地址
-  // gitRepoUrl: 'https://github.com/xjh22222228/nav',
      gitRepoUrl: 'https://github.com/xiaoqy/nav',
   // 路由是否Hash模式, 如果是部署在github pages 务必设为 true
   hashMode: true,
@@ -18,10 +17,10 @@ const c: IConfig = {
   description: '爱死Ta导航 - 专注效率',
 
   // 网站关键字
-  keywords: '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js',
+  keywords: '导航,爱死它导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,24ta,node.js',
 
   // 默认主题: Light | Sim
-  theme: 'Light',
+  theme: 'Sim',
 
   // 搜索引擎列表, 为空时不显示搜索引擎
   // 自定义引擎 icon 请使用网络图标
@@ -71,7 +70,7 @@ const c: IConfig = {
 
   // 百度统计地址
   // https://tongji.baidu.com/web/welcome/login
-  baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba',
+  baiduStatisticsUrl: '',
 
   // CNZZ 统计地址
   // https://www.cnzz.com/o_index.php?
